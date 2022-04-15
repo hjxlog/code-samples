@@ -1,0 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# 以下目录或文件不需要提交gitlab
+/omp-web/node_modules
+
