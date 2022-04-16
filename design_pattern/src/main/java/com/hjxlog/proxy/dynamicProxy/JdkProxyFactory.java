@@ -6,6 +6,8 @@ import java.lang.reflect.Proxy;
  * @author Huang JX
  * @date 2022/4/5
  * @description 获取代理对象的工厂类
+ *
+ * 根据传入的目标对象（被代理对象），生成代理对象，后期是由代理对象去帮被代理对象去执行任务的；
  */
 public class JdkProxyFactory {
 
