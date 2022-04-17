@@ -11,10 +11,18 @@ package com.hjxlog.lock;
  *
  * 注意点：
  * 1. 尽量不要使用 synchronized(String a) 因为 JVM 中，字符串常量池具有缓存功能！
+ * 2. synchronized 不能作用在构造方法上
  */
 public class SyncDemo {
 
 //    private synchronized static int num = 0;
+
+    /**
+     * synchronized 不能作用在构造方法上，因为构造方法本身就是线程安全的，不存在同步的构造方法一说
+     */
+//    public synchronized SyncDemo(){
+//
+//    }
 
     private static Object object = new Object();
 
