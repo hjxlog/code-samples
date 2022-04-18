@@ -8,11 +8,11 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
  * <p>
  * AQS源码分析：
  * 1. abstract class AbstractQueuedSynchronizer 是一个抽象类
- *
+ * <p>
  * 2. AQS的成员变量：
- *  private volatile int state; 判断共享资源是否正在被占用的那个标记位；volatile保证线程之间的可见性；
- *  为什么是 Int 而不是boolean，线程占有锁有两种模式：独占和共享
- *
+ * private volatile int state; 判断共享资源是否正在被占用的那个标记位；volatile保证线程之间的可见性；
+ * 为什么是 Int 而不是boolean，线程占有锁有两种模式：独占和共享
+ * <p>
  * 总结：
  * 1. AQS底层使用了很多CAS操作；
  */
