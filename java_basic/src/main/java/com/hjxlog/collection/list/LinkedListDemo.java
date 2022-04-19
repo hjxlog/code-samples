@@ -13,6 +13,7 @@ public class LinkedListDemo {
         LinkedList linkedList = new LinkedList();
         linkedList.addFirst("first");
         linkedList.addLast("last");
+        linkedList.add(1, "hello");
         System.out.println(linkedList);
 
     }
