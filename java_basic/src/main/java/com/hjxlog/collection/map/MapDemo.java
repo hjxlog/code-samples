@@ -1,5 +1,8 @@
 package com.hjxlog.collection.map;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author: Huang JX
  * @date: 2022/4/16
@@ -16,4 +19,9 @@ package com.hjxlog.collection.map;
  * 2. 不需要就选择实现 List 接口的比如 ArrayList 或 LinkedList，然后再根据实现这些接口的集合的特点来选用。
  */
 public class MapDemo {
+
+    public static void main(String[] args) {
+        Map map = new HashMap<>();
+    }
+
 }
